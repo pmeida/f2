@@ -1,0 +1,8 @@
+# $schema: https://raw.githubusercontent.com/knative/func/main/schema/func_yaml-schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/knative/func/main/schema/func_yaml-schema.json
+specVersion: 0.36.0
+name: f2
+runtime: node
+registry: image-registry.openshift-image-registry.svc:5000/function1
+namespace: function1
+created: 2026-09-11T09:42:51.17543+01:00
